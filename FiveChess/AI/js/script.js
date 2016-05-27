@@ -88,8 +88,8 @@ var drawChessBoard = function () {
         context.stroke();
     }
 }
-var img_b = new Image();
-var img_w = new Image();
+var img_b = new Image();//添加黑棋
+var img_w = new Image();//添加白棋
 img_b.src = "images/b.png";
 img_w.src = "images/w.png";
 var oneStep = function (i, j, me) {
